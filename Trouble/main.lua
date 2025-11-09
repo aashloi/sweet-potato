@@ -9174,7 +9174,7 @@ Icons=a.load'V'
 
 local an=ag("TextBox",{
 Text="",
-PlaceholderText="搜索...",
+PlaceholderText="Search...",
 ThemeTag={
 PlaceholderColor3="Placeholder",
 TextColor3="Text",
