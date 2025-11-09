@@ -6319,7 +6319,7 @@ am.Tabs={}
 
 if am.SearchBarEnabled then
 if not ar then
-ar=ah("搜索...","搜索",am.UIElements.Menu,nil,function(aw)
+ar=ah("搜索...","search",am.UIElements.Menu,nil,function(aw)
 for ax,ay in next,am.Tabs do
 if string.find(string.lower(ay.Name),string.lower(aw),1,true)then
 ay.UIElements.TabItem.Visible=true
@@ -6332,7 +6332,7 @@ end
 end,true)
 ar.Size=UDim2.new(1,0,0,an.SearchBarHeight)
 ar.Position=UDim2.new(0,0,0,0)
-ar.Name="SearchBar"
+ar.Name="搜索栏"
 end
 end
 
@@ -11291,7 +11291,7 @@ Callback=function()end,
 Variant="Secondary",
 },
 {
-Title="关闭",
+Title="确定",
 
 Callback=function()ar:Destroy()end,
 Variant="Primary",
