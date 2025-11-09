@@ -9174,7 +9174,7 @@ Icons=a.load'V'
 
 local an=ag("TextBox",{
 Text="",
-PlaceholderText="Search...",
+PlaceholderText="搜索...",
 ThemeTag={
 PlaceholderColor3="Placeholder",
 TextColor3="Text",
@@ -11434,7 +11434,7 @@ local G=false
 
 
 
-local H=al("搜索","search",ar.UIElements.SideBarContainer,true)
+local H=al("Search","search",ar.UIElements.SideBarContainer,true)
 H.Size=UDim2.new(1,-ar.UIPadding/2,0,39)
 H.Position=UDim2.new(0,ar.UIPadding/2,0,ar.UIPadding/2)
 
