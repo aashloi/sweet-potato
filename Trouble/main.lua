@@ -6332,7 +6332,7 @@ end
 end,true)
 ar.Size=UDim2.new(1,0,0,an.SearchBarHeight)
 ar.Position=UDim2.new(0,0,0,0)
-ar.Name="SearchBar"
+ar.Name="搜索栏"
 end
 end
 
@@ -9174,7 +9174,7 @@ Icons=a.load'V'
 
 local an=ag("TextBox",{
 Text="",
-PlaceholderText="搜索...",
+PlaceholderText="Search...",
 ThemeTag={
 PlaceholderColor3="Placeholder",
 TextColor3="Text",
